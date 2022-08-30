@@ -1,0 +1,41 @@
+.feedContainer {
+  display: flex;
+  justify-content: center;
+}
+.feedOverlay {
+  z-index: 1;
+}
+.feedNavbarContainer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  flex: 1 1 0;
+}
+.feedNavbarPosition {
+  display: flex;
+  /* width: 60px;
+  min-width: 60px; */
+  height: 100%;
+}
+.feedNavbar {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  position: fixed;
+  top: 0;
+  height: 100%
+}
+.searchContainer {
+}
+.feedPostsContainer {
+  flex: 1 1 600px;
+}
+.feedPosts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #333;
+}

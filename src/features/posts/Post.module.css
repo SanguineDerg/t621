@@ -1,0 +1,9 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #333;
+  padding-bottom: 12px;
+}

@@ -1,0 +1,46 @@
+.postOverlayContainer {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.postOverlayContentContainer {
+  flex: 1 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.9);
+}
+.postOverlayContent {
+  position: absolute;
+}
+.postOverlayCloseContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postOverlayClose {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(62, 62, 62, 0.75);
+  cursor: pointer;
+}
