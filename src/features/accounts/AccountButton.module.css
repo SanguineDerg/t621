@@ -1,0 +1,26 @@
+.accountContainer {
+    position: relative;
+}
+.accountProfilePicture {
+    display: flex;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+.accountProfilePicture > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    min-height: 100%;
+}
+.accountListPosition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
